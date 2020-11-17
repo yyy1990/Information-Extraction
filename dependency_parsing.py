@@ -150,8 +150,20 @@ def get_info(sentence, n = -1):
     return answer
 
 
+def split_first(sentence, split = '。'):
+    '''
+    先分割句子再提取信息。比直接提取信息效果通常更好。
+    '''
+    sentences = sentence.split(split)
+    result = {}
+    for s in sentences:
+        result.update(get_info(s))
+    return result
+
+
 if __name__ == '__main__':
     sentence = input('输入需要分析的句子：\n')
-    result = get_info(sentence)
+    #result = get_info(sentence)
+    result = split_first(sentence)
     for key, value in result.items():
         print(f'speaker:{key}, point:{value}\n')

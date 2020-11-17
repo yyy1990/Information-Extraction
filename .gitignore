@@ -6,3 +6,4 @@ data/sgns.sogou.bigram.csv
 data/sgns.wiki.bigram
 data/sgns.wiki.bigram.csv
 data/similar_words.txt
+dependency_parsing_old.py
