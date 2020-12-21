@@ -35,3 +35,4 @@ speaker:缅甸投资与对外经济关系部部长当吞, point:RCEP将为亚洲
 speaker:马来西亚国际贸易和工业部, point:期待《区域全面经济伙伴关系协定》的签署
 ```
 
+线上部署地址：http://121.4.59.193/info_extract
